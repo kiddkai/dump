@@ -87,3 +87,10 @@ Example:
 ## Define a high-level function - Polymorphism
 
 see - https://clojuredocs.org/clojure.core/defmethod
+
+## Private function
+
+```clj
+(defn- private-func []
+  body)
+```
