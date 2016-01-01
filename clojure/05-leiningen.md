@@ -15,7 +15,7 @@ Project.clj will contains informations below:
 
 ### Create a new project
 
-`lein new app <name>`
+    lein new app <name>
 
 Lein will create a project based on a template called `app`, but
 where does this `app` template comes from? Still a question for me
@@ -23,21 +23,19 @@ yet.
 
 What it will do it's creating a project looks like this:
 
-```
-├── CHANGELOG.md 
-├── LICENSE
-├── README.md
-├── doc
-│   └── intro.md
-├── project.clj - the project metadata file
-├── resources
-├── src
-│   └── resume
-│       └── core.clj - the application entry point
-└── test
-    └── resume
-        └── core_test.clj - the application entry point test
-```
+    ├── CHANGELOG.md 
+    ├── LICENSE
+    ├── README.md
+    ├── doc
+    │   └── intro.md
+    ├── project.clj - the project metadata file
+    ├── resources
+    ├── src
+    │   └── resume
+    │       └── core.clj - the application entry point
+    └── test
+        └── resume
+            └── core_test.clj - the application entry point test
 
 #### project.clj
 
